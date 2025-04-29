@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000130] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.000590] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.006302] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.006799] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[0.007327] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maffin21/ydlidar_ws/build/ydlidar_ros2_driver', '--', '-j12', '-l12'], 'cwd': '/home/maffin21/ydlidar_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja_JP.UTF-8'), ('USER', 'maffin21'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maffin21'), ('OLDPWD', '/home/maffin21/ydlidar_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3609'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maffin21/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maffin21'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maffin21'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maffin21-EQ:@/tmp/.ICE-unix/1515,unix/maffin21-EQ:/tmp/.ICE-unix/1515'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c39158c1_8057_4edc_8ac4_bb93295430d8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IK4O52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maffin21/ydlidar_ws/build/ydlidar_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble')]), 'shell': False}
+[0.046808] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node\x1b[0m\n'}
+[0.057604] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_client\n'}
+[0.060550] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[0.099850] (-) TimerEvent: {}
+[0.200106] (-) TimerEvent: {}
+[0.300411] (-) TimerEvent: {}
+[0.400721] (-) TimerEvent: {}
+[0.501034] (-) TimerEvent: {}
+[0.601362] (-) TimerEvent: {}
+[0.701675] (-) TimerEvent: {}
+[0.801987] (-) TimerEvent: {}
+[0.902312] (-) TimerEvent: {}
+[1.002618] (-) TimerEvent: {}
+[1.102929] (-) TimerEvent: {}
+[1.203242] (-) TimerEvent: {}
+[1.303558] (-) TimerEvent: {}
+[1.403887] (-) TimerEvent: {}
+[1.504221] (-) TimerEvent: {}
+[1.604529] (-) TimerEvent: {}
+[1.704829] (-) TimerEvent: {}
+[1.805135] (-) TimerEvent: {}
+[1.891027] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maffin21/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.891252] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maffin21/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:86:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kinvalid_range_is_inf\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.891320] (ydlidar_ros2_driver) StderrLine: {'line': b'   86 |   bool \x1b[01;35m\x1b[Kinvalid_range_is_inf\x1b[m\x1b[K = node->declare_parameter<bool>("invalid_range_is_inf", false);\n'}
+[1.891373] (ydlidar_ros2_driver) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.905211] (-) TimerEvent: {}
+[2.005454] (-) TimerEvent: {}
+[2.105763] (-) TimerEvent: {}
+[2.206072] (-) TimerEvent: {}
+[2.306392] (-) TimerEvent: {}
+[2.406706] (-) TimerEvent: {}
+[2.507024] (-) TimerEvent: {}
+[2.607358] (-) TimerEvent: {}
+[2.707656] (-) TimerEvent: {}
+[2.808177] (-) TimerEvent: {}
+[2.908509] (-) TimerEvent: {}
+[3.008798] (-) TimerEvent: {}
+[3.109085] (-) TimerEvent: {}
+[3.209397] (-) TimerEvent: {}
+[3.309686] (-) TimerEvent: {}
+[3.389710] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_node\x1b[0m\n'}
+[3.409781] (-) TimerEvent: {}
+[3.510054] (-) TimerEvent: {}
+[3.586139] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_node\n'}
+[3.595576] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[3.596113] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[3.603374] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maffin21/ydlidar_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/maffin21/ydlidar_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja_JP.UTF-8'), ('USER', 'maffin21'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maffin21'), ('OLDPWD', '/home/maffin21/ydlidar_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3609'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maffin21/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maffin21'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maffin21'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maffin21-EQ:@/tmp/.ICE-unix/1515,unix/maffin21-EQ:/tmp/.ICE-unix/1515'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c39158c1_8057_4edc_8ac4_bb93295430d8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IK4O52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.117'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maffin21/ydlidar_ws/build/ydlidar_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble')]), 'shell': False}
+[3.608841] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.609229] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.609434] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[3.609556] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[3.609789] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[3.609872] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[3.609949] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[3.610102] (-) TimerEvent: {}
+[3.610201] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[3.610284] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[3.610351] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[3.610415] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[3.610478] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[3.610552] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[3.610626] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml\n'}
+[3.610698] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[3.610773] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[3.610847] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[3.610921] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[3.611065] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[3.611210] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[3.611348] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[3.611470] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[3.611586] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[3.611690] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[3.611799] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[3.611901] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[3.612000] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[3.612100] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[3.612206] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[3.612310] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[3.612381] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[3.619446] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[3.619591] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[3.619694] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[3.619825] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[3.621352] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[3.633348] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[3.633844] (-) EventReactorShutdown: {}

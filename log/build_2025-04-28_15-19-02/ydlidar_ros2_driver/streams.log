@@ -1,0 +1,49 @@
+[0.008s] Invoking command in '/home/maffin21/ydlidar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maffin21/ydlidar_ws/build/ydlidar_ros2_driver -- -j12 -l12
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_client[0m
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node[0m
+[0.055s] [ 75%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[0.055s] [ 75%] Built target ydlidar_ros2_driver_client
+[1.846s] [01m[K/home/maffin21/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.846s] [01m[K/home/maffin21/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:86:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinvalid_range_is_inf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.847s]    86 |   bool [01;35m[Kinvalid_range_is_inf[m[K = node->declare_parameter<bool>("invalid_range_is_inf", false);
+[1.847s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.313s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[3.510s] [100%] Built target ydlidar_ros2_driver_node
+[3.520s] Invoked command in '/home/maffin21/ydlidar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/maffin21/ydlidar_ws/build/ydlidar_ros2_driver -- -j12 -l12
+[3.528s] Invoking command in '/home/maffin21/ydlidar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maffin21/ydlidar_ws/build/ydlidar_ros2_driver
+[3.534s] -- Install configuration: ""
+[3.534s] -- Execute custom install script
+[3.534s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[3.542s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[3.549s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[3.556s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[3.562s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[3.569s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[3.576s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[3.582s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[3.589s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[3.595s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[3.602s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[3.608s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[3.615s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[3.622s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[3.629s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[3.636s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[3.643s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[3.650s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[3.657s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[3.663s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[3.670s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[3.677s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[3.683s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[3.690s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[3.697s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[3.703s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[3.710s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[3.717s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[3.723s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[3.730s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[3.737s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[3.744s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[3.751s] -- Symlinking: /home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[3.759s] Invoked command in '/home/maffin21/ydlidar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/maffin21/ydlidar_ws/build/ydlidar_ros2_driver
