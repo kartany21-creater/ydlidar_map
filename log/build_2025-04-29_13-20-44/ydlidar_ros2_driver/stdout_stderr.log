@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target ydlidar_ros2_driver_node[0m
+[ 50%] Built target ydlidar_ros2_driver_client
+[ 75%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[01m[K/home/maffin21/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/maffin21/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:122:12:[m[K [01;31m[Kerror: [m[K‘[01m[KLaserScan[m[K’ is not a member of ‘[01m[Kydlidar[m[K’
+  122 |   ydlidar::[01;31m[KLaserScan[m[K scan;  // ← 修正ポイント！
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/maffin21/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:122:12:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/local/include/core/common/ydlidar_protocol.h:531[m[K,
+                 from [01m[K/usr/local/include/core/common/DriverInterface.h:8[m[K,
+                 from [01m[K/usr/local/include/src/CYdLidar.h:48[m[K,
+                 from [01m[K/home/maffin21/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:1[m[K:
+[01m[K/usr/local/include/core/common/ydlidar_datatype.h:121:3:[m[K [01;36m[Knote: [m[K  ‘[01m[KLaserScan[m[K’
+  121 | } [01;36m[KLaserScan[m[K;
+      |   [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+                 from [01m[K/home/maffin21/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:247:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan[m[K’
+  247 | using [01;36m[KLaserScan[m[K =
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/maffin21/ydlidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:125:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan[m[K’ was not declared in this scope; did you mean ‘[01m[Kscanf[m[K’?
+  125 |     if (laser.doProcessSimple([01;31m[Kscan[m[K)) {
+      |                               [01;31m[K^~~~[m[K
+      |                               [32m[Kscanf[m[K
+gmake[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:76: CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ydlidar_ros2_driver_node.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2
